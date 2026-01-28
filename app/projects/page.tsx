@@ -10,7 +10,7 @@ const projects = [
     },
     {
         title: "FileStacker - A Modern SaaS WebApplication",
-        description: "AA SaaS-based intelligent file management system , with python backend and React.",
+        description: "A SaaS-based intelligent file management system , with python backend and React.",
         stack: ["Python", "FastApi", "PostGresSQL", "React"],
         repo: "A SaaS-based intelligent file management system , with python backend and React."
     },

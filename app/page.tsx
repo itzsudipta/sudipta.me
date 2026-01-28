@@ -24,11 +24,11 @@ export default function Home() {
           </h1>
 
           {/* Bio */}
-          <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-lg leading-relaxed">
-            I am <strong className="text-zinc-900 dark:text-zinc-200 font-semibold">Sudipta Sarkar</strong>,
+          <p className="text-lg text-foreground/90 max-w-lg leading-relaxed">
+            I am <strong className="text-foreground font-semibold">Sudipta Sarkar</strong>,
             a Lead Web & ML Developer. I architect high-performance systems that merge
-            <span className="text-zinc-900 dark:text-zinc-200 font-medium"> computational depth</span> with
-            <span className="text-zinc-900 dark:text-zinc-200 font-medium"> visual clarity.</span>
+            <span className="text-foreground font-medium"> computational depth</span> with
+            <span className="text-foreground font-medium"> visual clarity.</span>
           </p>
 
           {/* Buttons */}
