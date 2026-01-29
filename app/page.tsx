@@ -43,7 +43,7 @@ export default function Home() {
 
             <Link
               href="/resume"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-md text-sm font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-md text-sm font-medium text-foreground hover:text-blue-600 transition-colors"
             >
               <FileText className="w-4 h-4" />
               Resume
