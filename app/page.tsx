@@ -13,7 +13,7 @@ export default function Home() {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700">
             <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             <span className="text-xs font-medium text-zinc-600 dark:text-zinc-300 tracking-wide uppercase">
-              Available for hire
+              Open to Work
             </span>
           </div>
 

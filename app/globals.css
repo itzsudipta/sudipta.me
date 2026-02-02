@@ -10,14 +10,14 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 100%;
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 100%;
-    --border: 240 3.7% 15.9%;
+    --background: 220 13% 9%;
+    --foreground: 213 31% 91%;
+    --card: 220 13% 9%;
+    --card-foreground: 213 31% 91%;
+    --border: 215 14% 20%;
   }
 
-  
+
   html {
     scrollbar-gutter: stable;
   }
