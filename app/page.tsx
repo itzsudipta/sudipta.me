@@ -63,7 +63,7 @@ export default function Home() {
 
            
             <Image
-              src="/MyData/Sudipta.jpg"
+              src="/MyData/Sudipta.png"
               alt="Sudipta Sarkar"
               fill
               priority
