@@ -2,13 +2,13 @@ export default function AboutPage() {
     return (
         <section className="max-w-2xl mx-auto py-12 px-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
 
-            {/* 1. Header - Using text-foreground for guaranteed visibility */}
+            
             <div className="space-y-4 mb-16">
                 <h1 className="text-4xl font-semibold tracking-tight text-foreground leading-[1.1]">
                     I don&apos;t just write code; I architect digital ecosystems where <span className="text-zinc-400">logic meets intelligence.</span>
                 </h1>
             </div>
-            {/* 2. Narrative Content */}
+          
             <div className="space-y-12">
                 <section className="space-y-4 text-foreground/90">
                     <div className="flex items-center gap-3 mb-6">
@@ -29,7 +29,7 @@ export default function AboutPage() {
                     </p>
                 </section>
 
-                {/* Architecture Quote - Using text-foreground */}
+                
                 <section className="py-2">
                     <blockquote className="border-l-4 border-foreground pl-6 space-y-4">
                         <p className="text-foreground text-xl leading-snug italic font-medium">
@@ -40,7 +40,7 @@ export default function AboutPage() {
                     </blockquote>
                 </section>
 
-                {/* Acknowledgment Section */}
+                
                 <section className="space-y-4 pt-4 text-foreground/90">
                     <div className="flex items-center gap-3 mb-6">
                         <span className="h-px w-8 bg-blue-600" />
@@ -55,7 +55,7 @@ export default function AboutPage() {
                 </section>
             </div>
 
-            {/* 3. Footer */}
+          
             <footer className="mt-20 pt-8 border-t border-border flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <p className="text-xs font-mono text-zinc-500 uppercase">Always betting on the web.</p>
                 <a
