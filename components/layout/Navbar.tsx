@@ -31,18 +31,18 @@ export default function Navbar() {
     }, [pathname]);
 
     return (
-        // Sticky container
+        
         <nav className="sticky top-0 z-100 w-full border-b border-border bg-background/80 backdrop-blur-md">
             <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6 md:px-8">
 
-                {/* Logo - Fixed width container to prevent shift */}
+                
                 <div className="flex-1 md:flex-none">
                     <Link href="/" className="font-bold tracking-tight text-foreground text-lg">
                         Sudipta.
                     </Link>
                 </div>
 
-                {/* Desktop Navigation */}
+                
                 <div className="hidden md:flex items-center gap-6">
                     {navItems.map((item) => (
                         <Link
@@ -57,7 +57,7 @@ export default function Navbar() {
                         </Link>
                     ))}
 
-                    {/* Theme Toggle Wrapper (Prevents jumping on load) */}
+                    
                     <div className="w-9 h-9 flex items-center justify-center">
                         {mounted && (
                             <button
@@ -71,7 +71,7 @@ export default function Navbar() {
                     </div>
                 </div>
 
-                {/* Mobile Actions */}
+               
                 <div className="flex items-center gap-2 md:hidden">
                     <div className="w-9 h-9 flex items-center justify-center">
                         {mounted && (
@@ -94,7 +94,7 @@ export default function Navbar() {
                 </div>
             </div>
 
-            {/* Mobile Menu Dropdown - RESTORED STYLE + FIXED LOGO SHIFT */}
+            
             {isOpen && (
                 <div className="absolute top-16 left-0 right-0 z-50 w-full border-b border-t border-border bg-zinc-50 dark:bg-zinc-900 px-6 py-8 space-y-5 md:hidden animate-in slide-in-from-top-2 shadow-2xl">
                     {navItems.map((item) => (
@@ -104,8 +104,8 @@ export default function Navbar() {
                             className={cn(
                                 "block text-base font-medium transition-colors",
                                 pathname === item.path
-                                    ? "text-blue-600 dark:text-blue-400" // Active color
-                                    : "text-zinc-600 dark:text-zinc-400" // Inactive color
+                                    ? "text-blue-600 dark:text-blue-400"
+                                    : "text-zinc-600 dark:text-zinc-400" 
                             )}
                         >
                             {item.name}

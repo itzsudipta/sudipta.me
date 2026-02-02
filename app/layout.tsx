@@ -3,10 +3,10 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
-import { ThemeProvider } from "@/components/theme-provider"; // 👈 Import this
+import { ThemeProvider } from "@/components/theme-provider"; 
 
 export const metadata: Metadata = {
-  title: "Sudipta Sarkar | ML Dev",
+  title: "Sudipta Sarkar",
   description: "Student at NiT Kolkata",
 };
 
@@ -16,10 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    // 👇 Ensure suppressHydrationWarning is here
+    
     <html lang="en" className="antialiased" suppressHydrationWarning>
       <body className={`${GeistSans.variable} ${GeistMono.variable} min-h-screen bg-background text-foreground flex flex-col`}>
-        {/* 👇 Wrap everything inside ThemeProvider */}
+        
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

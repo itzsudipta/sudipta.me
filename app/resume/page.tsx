@@ -16,7 +16,7 @@ export default function Resume() {
                 </a>
             </div>
 
-            {/* High-End PDF Viewer */}
+            
             <div className="w-full h-200 border border-border rounded-lg overflow-hidden bg-zinc-100 dark:bg-zinc-900 shadow-inner relative">
                 <iframe
                     src={`${resumePath}#view=FitH`}

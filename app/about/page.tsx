@@ -59,7 +59,7 @@ export default function AboutPage() {
             <footer className="mt-20 pt-8 border-t border-border flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <p className="text-xs font-mono text-zinc-500 uppercase">Always betting on the web.</p>
                 <a
-                    href="mailto:hello@sudiptasarkar.me"
+                    href="mailto:info.sudipta.nit@gmail.com"
                     className="text-sm font-bold text-foreground hover:text-blue-600 transition-colors"
                 >
                     Get in touch →

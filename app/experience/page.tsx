@@ -9,9 +9,9 @@ export default function AcademicJourney() {
             </div>
 
             <div className="relative border-l border-border ml-3 space-y-12">
-                {/* B.Tech */}
+                
                 <div className="relative pl-8 md:pl-12">
-                    {/* Active Timeline Dot */}
+                   
                     <div className="absolute -left-1.25 top-2 h-2.5 w-2.5 rounded-full bg-blue-500 ring-4 ring-background" />
 
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
@@ -42,7 +42,7 @@ export default function AcademicJourney() {
                     </div>
                 </div>
 
-                {/* Diploma */}
+                
                 <div className="relative pl-8 md:pl-12">
                     <div className="absolute -left-1.25 top-2 h-2.5 w-2.5 rounded-full bg-zinc-300 dark:bg-zinc-700 ring-4 ring-background" />
 
@@ -65,7 +65,7 @@ export default function AcademicJourney() {
                     </p>
                 </div>
 
-                {/* Schooling */}
+               
                 <div className="relative pl-8 md:pl-12">
                     <div className="absolute -left-1.25 top-2 h-2.5 w-2.5 rounded-full bg-zinc-300 dark:bg-zinc-700 ring-4 ring-background" />
 

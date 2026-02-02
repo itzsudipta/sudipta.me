@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image"; // Added this import
+import Image from "next/image"; 
 import { ArrowRight, FileText } from "lucide-react";
 
 export default function Home() {
@@ -7,9 +7,9 @@ export default function Home() {
     <section className="flex items-center justify-center min-h-[80vh] animate-in fade-in zoom-in-95 duration-500">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
 
-        {/* 1. Left Column: Typography */}
+        
         <div className="space-y-8 order-2 md:order-1">
-          {/* Status Badge */}
+          
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700">
             <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             <span className="text-xs font-medium text-zinc-600 dark:text-zinc-300 tracking-wide uppercase">
@@ -17,13 +17,13 @@ export default function Home() {
             </span>
           </div>
 
-          {/* Headline */}
+          
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-foreground leading-[1.1]">
             Engineering logic, <br />
             <span className="text-muted-foreground">not just syntax.</span>
           </h1>
 
-          {/* Bio */}
+          
           <p className="text-lg text-foreground/90 max-w-lg leading-relaxed">
             I am <strong className="text-foreground font-semibold">Sudipta Sarkar</strong>,
             a Lead Web & ML Developer. I architect high-performance systems that merge
@@ -31,7 +31,7 @@ export default function Home() {
             <span className="text-foreground font-medium"> visual clarity.</span>
           </p>
 
-          {/* Buttons */}
+          
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <Link
               href="/projects"
@@ -57,11 +57,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 2. Right Column: Image container */}
+       
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
           <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 shadow-sm">
 
-            {/* ATTACH YOUR PICTURE LINK BELOW IN THE 'src' ATTRIBUTE */}
+           
             <Image
               src="/MyData/Sudipta.jpg"
               alt="Sudipta Sarkar"

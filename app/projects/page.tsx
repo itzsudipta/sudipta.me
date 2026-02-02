@@ -52,9 +52,8 @@ export default function Projects() {
                             </div>
                         </div>
 
-                        {/* Updated Link Logic */}
                         <div className="mt-8 flex items-center gap-4">
-                            {/* Logic: Show Live Demo ONLY if project.link exists */}
+                            
                             {project.link && (
                                 <a
                                     href={project.link}
@@ -66,7 +65,7 @@ export default function Projects() {
                                 </a>
                             )}
 
-                            {/* Logic: Show Source ONLY if project.repo exists */}
+                            
                             {project.repo && (
                                 <a
                                     href={project.repo}
