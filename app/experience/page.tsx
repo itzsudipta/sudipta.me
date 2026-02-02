@@ -10,9 +10,9 @@ export default function AcademicJourney() {
 
             <div className="relative border-l border-border ml-3 space-y-12">
 
-                {/* B.Tech */}
+                
                 <div className="relative pl-8 md:pl-12">
-                    <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-blue-500 ring-4 ring-background" />
+                    <div className="absolute -left-1.25 top-2 h-2.5 w-2.5 rounded-full bg-blue-500 ring-4 ring-background" />
 
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                         <h3 className="text-lg font-medium text-foreground">
@@ -23,7 +23,7 @@ export default function AcademicJourney() {
                         </span>
                     </div>
 
-                    {/* Flexible container for Institution and Grade */}
+                    
                     <div className="flex flex-col sm:flex-row sm:items-baseline gap-x-6 gap-y-1 mb-4">
                         <div className="text-sm text-zinc-500 font-medium whitespace-nowrap">
                             Narula Institute of Technology (NiT Kolkata)
@@ -43,9 +43,8 @@ export default function AcademicJourney() {
                     </div>
                 </div>
 
-                {/* Diploma */}
                 <div className="relative pl-8 md:pl-12">
-                    <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-zinc-300 dark:bg-zinc-700 ring-4 ring-background" />
+                    <div className="absolute -left-1.25 top-2 h-2.5 w-2.5 rounded-full bg-zinc-300 dark:bg-zinc-700 ring-4 ring-background" />
 
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                         <h3 className="text-lg font-medium text-foreground">
@@ -71,9 +70,9 @@ export default function AcademicJourney() {
                     </p>
                 </div>
 
-                {/* Schooling */}
+                
                 <div className="relative pl-8 md:pl-12">
-                    <div className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-zinc-300 dark:bg-zinc-700 ring-4 ring-background" />
+                    <div className="absolute -left-1.25 top-2 h-2.5 w-2.5 rounded-full bg-zinc-300 dark:bg-zinc-700 ring-4 ring-background" />
 
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                         <h3 className="text-lg font-medium text-foreground">
@@ -95,7 +94,7 @@ export default function AcademicJourney() {
                     </div>
 
                     <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                        I am an alumnus of Chakdaha Ramalal Academy, having successfully completed Secondary Examination followed by Higher Secondary Examination from this institution.
+                        I am an alumnus of Chakdaha Ramlal Academy, having successfully completed Secondary Examination followed by Higher Secondary Examination from this institution.
                     </p>
                 </div>
             </div>
