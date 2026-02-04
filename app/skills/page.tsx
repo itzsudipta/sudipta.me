@@ -1,15 +1,39 @@
+import {
+    SiHtml5, SiCss3, SiJavascript, SiFastapi, SiPostgresql,
+    SiMysql, SiAmazonwebservices, SiVsco as SiVisualstudiocode,
+    SiSublimetext, SiPostman, SiGooglecolab, SiVercel
+} from "react-icons/si";
+
+const getIcon = (item: string) => {
+    switch (item) {
+        case "HTML": return <SiHtml5 className="text-[#E34F26]" />;
+        case "CSS": return <SiCss3 className="text-[#1572B6]" />;
+        case "JS": return <SiJavascript className="text-[#F7DF1E]" />;
+        case "FastAPI": return <SiFastapi className="text-[#05998B]" />;
+        case "PostgreSQL": return <SiPostgresql className="text-[#4169E1]" />;
+        case "MySQL": return <SiMysql className="text-[#4479A1]" />;
+        case "AWS": return <SiAmazonwebservices className="text-[#FF9900]" />;
+        case "VS Code": return <SiVisualstudiocode className="text-[#007ACC]" />;
+        case "Sublime": return <SiSublimetext className="text-[#FF9800]" />;
+        case "PostMan": return <SiPostman className="text-[#FF6C37]" />;
+        case "Google Colab": return <SiGooglecolab className="text-[#F9AB00]" />;
+        case "Vercel": return <SiVercel className="text-current" />;
+        default: return null;
+    }
+};
+
 const skillCategories = [
     {
         category: "Frontend Architecture",
-        items: ["HTML" , "CSS" ,"JS"]
+        items: ["HTML", "CSS", "JS"]
     },
     {
         category: "Backend & Database",
-        items: ["FastAPI", "PostgreSQL","MySQL"]
+        items: ["FastAPI", "PostgreSQL", "MySQL"]
     },
     {
         category: "Cloud & Tools",
-        items: ["AWS", "VS Code", "Sublime", "PostMan","Google Colab","Vercel"]
+        items: ["AWS", "VS Code", "Sublime", "PostMan", "Google Colab", "Vercel"]
     }
 ];
 
@@ -28,6 +52,10 @@ export default function Skills() {
                         <ul className="space-y-3">
                             {section.items.map((item) => (
                                 <li key={item} className="flex items-center text-foreground border-b border-border pb-3 last:border-0">
+                                    {/* Added only this span for the icon */}
+                                    <span className="mr-3 text-lg">
+                                        {getIcon(item)}
+                                    </span>
                                     <span className="text-sm">{item}</span>
                                 </li>
                             ))}
